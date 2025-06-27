@@ -1,0 +1,57 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "/home/zenflow/ZenFlow/.config/fastfetch/images/ascii-art.txt"
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    //"break",
+    {
+      "type": "title",
+      "keyWidth": 10,
+    },
+    {
+      "type": "custom",
+      "format": "",
+    },
+    {
+      "type": "os",
+      "key": "<=> ",
+      "keyColor": "37", // = color4
+    },
+    {
+      "type": "kernel",
+      "key": "<=> ",
+      "keyColor": "37",
+    },
+    {
+      "type": "packages",
+      "format": "{} (pacman)",
+      "key": "<=> ",
+      "keyColor": "37",
+    },
+    {
+      "type": "shell",
+      "key": "<=> ",
+      "keyColor": "37",
+    },
+    {
+      "type": "terminal",
+      "key": "<=> ",
+      "keyColor": "37",
+    },
+    {
+      "type": "wm",
+      "key": "<=> ",
+      "keyColor": "37",
+    },
+    "break",
+  ],
+}

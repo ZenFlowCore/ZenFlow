@@ -1,0 +1,26 @@
+1750937764553	Sync.LogManager	DEBUG	Flushing file log
+1750937764556	Sync.LogManager	DEBUG	Log cleanup threshold time: 1750073764556
+1750937764562	Sync.LogManager	DEBUG	Done deleting files.
+1750937765781	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1750946940230	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1750946940230	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1750946940232	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1750946940236	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1750965736336	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1750965740655	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1750965740656	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1750965740659	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1750965740660	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1750965740661	Sync.Service	DEBUG	User-Agent: Zen/1.13.2b (Linux x86_64) FxSync/1.141.0.20250616094514.desktop
+1750965740661	Sync.Service	INFO	Starting sync at 2025-06-26 21:22:20 in browser session P2B2i3VPNukh
+1750965740661	Sync.Service	DEBUG	In sync: should login.
+1750965740662	Sync.Service	INFO	User logged in successfully - verifying login.
+1750965740662	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState has no FxA user
+1750965740662	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1750965740662	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1750965740662	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.no_username
+1750965740662	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1750965740662	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1750965740662	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1750965740662	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.no_username(resource://services-sync/service.sys.mjs:1051:15) JS Stack trace: onNotify@service.sys.mjs:1051:15
+1750965740662	Sync.Service	DEBUG	Not syncing: login returned false.

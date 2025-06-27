@@ -1,0 +1,11 @@
+{
+  "theme": "obsidian",
+  "accentColor": "#0062ff",
+  "enabledCssSnippets": [
+    "css"
+  ],
+  "nativeMenus": false,
+  "baseFontSize": 20,
+  "cssTheme": "Black",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono"
+}

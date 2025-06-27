@@ -1,0 +1,61 @@
+version = 3
+
+[palette]
+  background = '#19120d'
+  error = '#ff5945'
+  foreground = '#f0dfd6'
+  outline = '#9f8d83'
+  primary = '#ffb781'
+  secondary = '#e4bfa7'
+  shadow = '#000000'
+  surface = '#19120d'
+  surface_bright = '#413731'
+  tertiary = '#c7ca95'
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+
+  [[blocks.segments]]
+    template = ''
+    foreground = 'p:foreground'
+    type = 'os'
+    style = 'plain'
+
+  [[blocks.segments]]
+    template = ' {{ .PWD }} '
+    foreground = 'p:primary'
+    type = 'path'
+    style = 'plain'
+
+    [blocks.segments.properties]
+      style = 'agnoster'
+
+  [[blocks.segments]]
+    template = ' {{ .Full }} '
+    foreground = '#FF4F00'
+    type = 'rust'
+    style = 'plain'
+
+  [[blocks.segments]]
+    template = ' {{ .Full }} '
+    foreground = '#100e23'
+    background = '#906cff'
+    type = 'python'
+    style = 'plain'
+
+[[blocks]]
+  type = 'rprompt'
+  alignment = 'right'
+
+  [[blocks.segments]]
+    template = ' git: {{ .HEAD }} '
+    foreground = 'p:secondary'
+    type = 'git'
+    style = 'plain'
+
+  [[blocks.segments]]
+    template = ' {{ .CurrentDate | date .Format }} '
+    foreground = 'p:primary'
+    type = 'time'
+    style = 'plain'

@@ -1,0 +1,1129 @@
+nmcli conn
+nmcli connect AndroidAPBB30
+ls
+clear
+ls
+ping google.com
+flatpak 
+flatpak install zed
+nmcli device wifi connect Realmne
+nmcli device wifi connect Realme
+nmcli device wifi connect Realme password
+nmcli device wifi connect Realme password salva1961
+nmcli device wifi connect Realme password salva61
+nmtui
+ping google.com
+flatpak install zed
+nmcli device wifi connect Realme password salva61
+sudo pacman -S iwctl
+nmtui
+ls
+fish
+clear
+starship
+starship explain
+z 
+ls
+cd fish
+cd 
+cd .config
+ls
+cd nushell
+ls
+z
+ls
+cd .config
+z
+ls
+cd nushell
+ls
+nvim env.nu
+nvim config.nu
+z
+clear
+z
+clear
+z 
+cd nushell
+cd .config
+cd nushell
+ls
+z
+chsh 
+chsh -l
+chsh 
+z
+clear
+z
+exit
+s
+ls
+clear
+z
+ls
+get
+carapace
+carapace nushell
+ls
+clear
+z
+clear
+z Documents/
+z
+zi 
+z
+clear
+yazi
+clearlear
+clear
+z
+starship 
+starship  init 
+starship  init nushell
+starship  init nu
+ls
+ls | sort-by type
+ls -la | sort-by type
+ls -a | sort-by type
+starship  init nu
+z nu
+s
+ls
+ls -a | sort-by type
+z starship
+cd starship
+ls
+cd ..
+ls
+nvim config.nu
+config nu
+clear
+ls
+z ..
+z 
+z nu
+ls
+nvim config.nu
+clear
+exit
+clear
+ls
+config nu
+z nu
+ls
+nvim config.nu
+clear
+z
+exit
+nu
+ls
+exit
+config nu
+z nu
+nvim config.nu
+cd .config
+cd nushell
+z
+clear
+z nu
+config nu
+$env | table -e
+clear
+config nu
+clear
+abbr_menu
+ls -a | sort-by type && size 
+ls -a | sort-by type ; size
+ls -a | sort-by type; sort-by size
+config nu
+clear
+ls 
+ls -a | { sort-by type } { sort-by size } 
+ls -a | { sort-by type } 
+ls -a | sort-by type 
+ls -a | sort-by type and size
+ls -a | sort-by type && size
+ls -a | sort-by type size
+config nu
+clear
+ls -a | sort-by type size
+rm spicetify     
+ls -a | sort-by type size
+rm starship
+rm NeoWerdium
+rm starship
+rm -rf starship
+ls -a | sort-by type size
+rm battery_checker  
+ls -a | sort-by type size
+rm fish_variables  
+rm config.fish 
+rm BeatPrints
+ls -a | sort-by type size
+rm ompsh
+rm spotify
+rm neofetch
+rm fish
+rm .bashrc
+ls -a | sort-by type size
+rm zed
+rm hypr
+rm nvim
+rm kitty
+rm hyprland.conf
+rm hypridle.conf
+rm hyprlock.conf
+rm hyprlock.conf.back
+ls -a | sort-by type size
+clear
+ls -a | sort-by type size
+rm hyprlock.conf.bak
+rm hypridle.conf.bak
+rm .current.wall
+ls -a | sort-by type size
+clear
+ls -a | sort-by type size
+z nu
+ls -a | sort-by type size
+cn
+clear
+z d
+ls -a | sort-by type size
+z .c
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+z d
+ls -a | sort-by type size
+rm *.symlink
+bash
+clear
+ls -a | sort-by type size
+clear
+ls -a | sort-by type size
+rm *.symlink
+rm | type symlink
+rm *.Symlink
+ls | where type == Symlink | each { rm $it.name }
+ls | where type == Symlink | each { rm }
+ls -a | sort-by type size
+ls | where type == Symlink | each { rm $it.namels | where type == Symlink | each {|link| rm $link.name } }
+ls | where type == Symlink | each {|link| rm $link.name }
+ls -a | sort-by type size
+here type == Symlink<\n>
+where type == Symlink<\n>
+ls -a | sort-by type size where type == Symlink<\n>
+ls -a | where type == Symlink<\n>
+ls -a | sort-by type == Symlink<\n>
+z .c
+ls -a | sort-by type size
+z d
+ls -a | sort-by type size
+rm symlink
+ls -a | sort-by type size
+find
+clear
+find -type l -ls  
+z d
+rm *(@)
+rm *.@
+rm *@
+z d
+ls -a | sort-by type size
+bash for f in *; do if [ -h "$f" ]; then echo rm -- "$f"; fi done; exit
+bash; for f in *; do if [ -h "$f" ]; then echo rm -- "$f"; fi done; exit
+touch .bashrc
+ls -a | sort-by type size
+nvim .bashrc
+bash
+ls -a | sort-by type size
+clear
+bash
+:q
+clear
+clear
+obsidian
+fish
+fish 
+nmcli device wifi connect 'moto g35 5G_9710' password Squ4lp1_
+sudo pacman -S krita
+ls -a | sort-by type size 
+nvim /home/zen/dotfiles/.config/fish/config.fish
+ls -a | sort-by type size
+LS
+ls -a | sort-by type size
+z ompsh
+ls -a | sort-by type size
+ls
+ls -a
+z ompsh
+cd .config
+cd ompsh
+ls
+nvim .oh-my-posh.nu
+cn
+config nu
+cd dotfiles
+z
+cd 
+cd .config
+ls
+cd ompsh
+ls
+cd ..
+ls
+cd nushelll
+cd nushell
+ls
+nvim config.nu
+z
+cd ..
+oh-my-posh init nu
+ls -a | sort-by type size
+z 
+z
+clear
+z ompsh
+ls -a | sort-by type size
+nvim theme.toml
+:q
+nmcli device wifi connect Realme password salva61
+ping google.com
+nmcli device wifi connect Realme password salva61
+iwctl
+nmcli device wifi connect Realme password salva61
+iwctl
+nmcli device wifi connect Realme password salva61
+iwctl
+nmcli device wifi connect Realme password salva61
+l
+ls -a | sort-by type size 
+brew
+config nu
+vifish
+ls -a | sort-by type size
+z nu
+ls -a | sort-by type size
+nvim env.nu
+z
+ls -a | sort-by type size
+fzf
+z nu
+nvim config.nu
+ls -a | sort-by type size
+nvim env.nu
+oh-my-posh
+ls -a | sort-by type size
+nvim config.nu
+ls -a | sort-by type size
+starship  init nu
+starshi
+oh-my-posh
+nvim env.nu
+ls -a | sort-by type size
+nvim config.nu
+oh-my-posh
+oh-my-posh get shell
+ls -a | sort-by type size
+nvim /home/zen/dotfiles/.config/kitty/kitty.conf
+sudo pacman -S gimp
+nmcli device wifi connect Realme password salva61
+sudo pacman -S rust
+sudo pacman -S rustup
+rustup
+clear
+sudo pacman -S cargo
+abbr_menu
+ls\
+ls -a | sort-by type size 
+clear
+ls -a | sort-by type size
+mkdir projects
+ls -a | sort-by type size
+mkdir leetcode
+ls -a | sort-by type size
+clear
+config nu
+ls -a | sort-by type size
+rustup --doc book
+rustup
+rustup doc --book
+rustup default stable
+rustup doc --book
+flatpak install zed
+sudo pacman -S zed
+ls -a | sort-by type size
+nvim css.css
+:Q
+xdg-mime default nautilus.desktop inode/directory
+xdg-mime query default inode/directory
+xdg-mime default nautilus.desktop inode/directory
+xdg-mime query default inode/directory
+nvim ~/.local/share/applications/mimeapps.list
+nvim ~/.local/share/applications/
+nvim ~/.local/share/applications
+z ~/.local/share/applications
+ls -a | sort-by type size
+z /usr/share/applications
+ls -a | sort-by type size
+xdg-mime default org.gnome.Nautilus.desktop inode/directory
+xdg-mime defaul inode/directoy
+xdg-mime defaul inode/directory
+xdg-mime default inode/directory
+xdg-mime default inode
+update-desktop-database ~/.local/share/applications/
+xdg-mime query default inode/directory
+zed
+ls -a | sort-by type size
+z d
+ls -a | sort-by type size
+z .config
+;s
+ls -a | sort-by type size
+z zed
+ls -a | sort-by type size
+zed
+n
+z projects
+ls -a | sort-by type size
+z d
+ls -a | sort-by type size
+z .c
+ls -a | sort-by type size
+mkdir projects
+z projects
+ls -a | sort-by type size
+mkdir fabric_bar
+z fabric_bar
+s
+ls -a | sort-by type size
+toucn bar.py
+touch bar.py
+zed bar.py
+zed
+bash
+clear
+ls -a | sort-by type size
+zed-editor
+zedit
+zenity 
+flatpak run zed
+flatpak run Zed
+flatpak list
+sudo pacman -S  	xdg-desktop-portal-gtk
+sudo pacman -S fabric
+sudo pacman -S python-fabric
+sudo pacman -S python-fabric-git
+sudo pacman -S gtk3 cairo gtk-layer-shell libgirepository gobject-introspection gobject-introspection-runtime python python-pip python-gobject python-cairo python-loguru pkgconf
+pip install git+https://github.com/Fabric-Development/fabric.git
+pipx install git+https://github.com/Fabric-Development/fabric.git
+cargo
+z zed
+ls -a | sort-by type size
+z 
+z .var
+ls -a | sort-by type size
+z app
+ls -a | sort-by type size
+z dev.zed.Zed-Preview
+ls -a | sort-by type size
+z config
+ls -a | sort-by type size
+z zed
+ls -a | sort-by type size
+z themes
+ls -a | sort-by type size
+z 
+z zed
+ls -a | sort-by type size
+z
+z var zed
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+z data
+ls -a | sort-by type size
+z zed
+ls -a | sort-by type size
+z languages
+ls -a | sort-by type size
+nmcli device wifi connect Realme password salva61
+touch bar.py
+ls -a | sort-by type size
+z ax
+ls -a | sort-by type size
+./install.sh
+nmcli device wifi connect Realme password salva61
+zen
+ls -a | sort-by type size
+./install.sh
+nmcli device wifi connect Realme password salva61
+./install.sh
+nmcli device wifi connect Realme password salva61
+z
+z ax
+ls -a | sort-by type size
+./install.sh
+z ax conf hypr
+ls -a | sort-by type size
+python3 bar.py
+zed
+ls -a | sort-by type size
+bash
+ls -a | sort-by type size
+bash\
+bash
+ls -a | sort-by type size
+z nu
+touch lsp.nu
+ls -a | sort-by type size
+python3 bar.py
+z ax
+ls -a | sort-by type size
+z ax hypr
+ls -a | sort-by type size
+z ax hypr 
+nvim ax-shell.conf
+ls -a | sort-by type size
+python3 bar.py
+ls -a | sort-by type size
+z projects
+ls -a | sort-by type size
+z d projec
+ls -a | sort-by type size
+z fabric_bar
+ls -a | sort-by type size
+touch bar.css
+z fabric_bar
+python3 bar.py
+z fabric_bar
+python3 bar.py
+z batte
+ls -a | sort-by type size
+z d
+ls -a | sort-by type size
+z battery_checker
+ls -a | sort-by type size
+ls -a | sort-by type size
+mv bar.css style.css
+z battery_checker
+z fabric_bar
+python3 bar.py
+clear
+python3 bar.py
+clear
+python3 bar.py
+hyprctl clients
+killall 
+killall -list
+killall -l
+killall -e ~/dotfiles/.config/projects/fabric_bar
+glance
+clear
+z fabric_bar
+ls -a | sort-by type size
+python3 bar.py
+nmtui
+nmcli device wifi connect Realme password salva61
+nmcli device wifi
+nmcli device wifi connect matto
+nmcli device wifi connect matto password security
+flatpak install sober
+ls -a | sort-by type size
+clear
+rust
+clear
+rustup doc --book
+rustup doc
+rustup doc --book 
+spicetify
+spicetify update
+sudo spicetify update
+spicetify update
+sudo mv /opt/spicetify-cli/spicetify /opt/spicetify-cli/spicetify.old
+clear
+spicetify update
+sudo mv /opt/spicetify-cli/spicetify.old /opt/spicetify-cli/spicetify.old
+sudo mv /opt/spicetify-cli/spicetify.old /opt/spicetify-cli/spicetify
+spicetify update
+spicetify config
+z fabric_bar
+python3 bar.py
+zed
+python3 bar.py
+z fabric_bar
+zed
+z fabric_bar
+GTK_DEBUG=interactive python bar.py
+z fabric_bar
+ls -a | sort-by type size
+python3 bar.py
+clear
+python3 bar.py
+sudo auto-cpufreq --force powersave
+sudo auto-cpufreq --install
+sudo auto-cpufreq --force powersave
+z ax
+ls -a | sort-by type size
+main.py
+python3 main.py
+sudo pacman -S gimp
+cargo new pythagora
+clear
+z pythagoa
+z pythagora
+ls -a | sort-by type size
+clear
+ls -a | sort-by type size
+zed
+z zed
+ls -a | sort-by type size
+z
+z app zed
+ls -a | sort-by type size
+touch ~/.zed.json
+cp settings.json ~/.zed.json
+clear
+flatpak remove zed
+z zed
+z
+z pythagora
+ls -a | sort-by type size
+z src
+ls -a | sort-by type size
+z pythagora
+cargo add text_io
+flatpak install zed
+nvim main.rs
+clear
+flatpak run zed
+flatpak run Zed
+flatpak run app.zed
+flatpak lsit
+flatpak list
+flatpak run dev.zed.Zed
+zed
+flatpak run dev.zed.Zed
+flatpak remove zed
+ls -a | sort-by type size
+clear
+z pythagora
+ls -a | sort-by type size
+z src
+ls -a | sort-by type size
+z ax hypr 
+zed
+flatpak run dev.zed.Zed
+z ax 
+ls -a | sort-by type size
+z styles
+ls -a | sort-by type size
+z pythagora
+cargo add ratatui
+cargo remove ratatui
+sudo pacman -S qalculate
+sudo pacman -S qt-calculate
+sudo pacman -Ss qt-calculate
+sudo pacman -Ss calculate
+sudo pacman -Ss qt calculate
+sudo pacman -Ss qtc alculate
+sudo pacman -Ss qt
+sudo pacman -S calculate
+sudo pacman -Ss calculate
+cargo install --git https://github.com/DioxusLabs/dioxus dioxus-cli --locked
+ls -a | sort-by type size
+z src
+ls -a | sort-by type size
+zed
+zeditor
+z pythagora
+cargo run
+ls -a | sort-by type size
+z pythagora
+cargo add dioxus
+ls -a | sort-by type size
+z src
+ls -a | sort-by type size
+z ..
+z .git
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+z src
+ls -a | sort-by type size
+z pythagora
+cargo run
+z pythagora
+dx --version
+sudo pacman -S dioxus-cli
+dx new pitagora
+ls -a | sort-by type size
+mv pitagora ~/
+ls -a | sort-by type size
+z ~
+ls -a | sort-by type size
+z pitagora
+ls -a | sort-by type size
+z src
+z pitagora
+ls -a | sort-by type size
+clear
+cargo run
+l
+ls -a | sort-by type size
+clear
+cargo build
+dx serve
+dx new test
+ls -a | sort-by type size
+mv test ~/
+z 
+z test
+ls -a | sort-by type size
+dx serve
+clear
+ls -a | sort-by type size
+z
+dx new test1
+z test1
+ls -a | sort-by type size
+mv test pythagora_lavoro
+z pythagora_lavoro
+z ax hyp
+nvim ax-shell.conf
+ls -a | sort-by type size
+clear
+z
+clear
+ls -a | sort-by type size
+z pythagora_lavoro
+flatpak install modrinth
+z zed
+z 
+ls -a | sort-by type size
+z app zed
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+z chace
+z cache
+ls -a | sort-by type size
+sudo auto-cpufreq --force performance
+spicetify
+lsblk
+ls -a | sort-by type size
+z .c
+ls -a | sort-by type size
+z spotify
+ls -a | sort-by type size
+sudo pacman -S qemu
+spicetify
+spicetify apply
+spicetify backup apply
+bash
+spicetify-marketplace
+sudo chmod a+wr /opt/spotify<\n>sudo chmod a+wr /opt/spotify/Apps -R
+sudo chmod a+wr $HOME/.local/share/spotify-launcher/install/usr/share/spotify/
+sudo chmod a+wr ~/.local/share/spotify-launcher/install/usr/share/spotify/
+z spicetify
+ls -a | sort-by type size
+z .c
+ls -a | sort-by type size
+z spicetify
+ls -a | sort-by type size
+nvim spicetify
+z spicetify
+ls -a | sort-by type size
+z .c
+z spotify
+ls -a | sort-by type size
+cd spotify
+ls -a | sort-by type size
+z ..
+fish
+clear
+ls -a | sort-by type size
+z spotify
+ls -a | sort-by type size
+spicetify backup apply
+spicetify restore backup
+spicetify apply
+spicetify
+spicetify-marketplace
+spicetify
+spicetify backup apply enable-devtools
+spicetify config current_theme marketplace<\n>
+spicetify config bloom marketplace<\n>
+spicetify config theme marketplace<\n>
+spicetify config  marketplace<\n>
+spicetify config custom_apps marketplace<\n>spicetify apply<\n>
+spicetify config sidebar_config 0
+spicetify apply
+clear
+spotify
+spotify-launcher
+c;ear
+clear
+z .c
+z spotify
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+nvim spotify-flags.conf
+z .c
+ls -a | sort-by type size
+nvim spotify-launcher.conf
+clear
+curl -fsSL https://raw.githubusercontent.com/nimsandu/spicetify-bloom/main/install/install.sh | bash
+z d
+ls -a | sort-by type size
+config nu
+clear
+curl -fsSL https://raw.githubusercontent.com/nimsandu/spicetify-bloom/main/install/install.sh | bash
+spicetify apply
+curl -fsSL https://raw.githubusercontent.com/nimsandu/spicetify-bloom/main/install/install.sh | bash
+z .d
+curl -fsSL https://raw.githubusercontent.com/nimsandu/spicetify-bloom/main/install/install.sh | bash
+bash
+ls -a | sort-by type size
+bash
+ls -a | sort-by type size
+clear
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+spicetify path userdata
+z spice
+z .c spicetify
+z .c/spicetify
+z .config/spicetify
+z /.config/spicetify
+cd /.config/spicetify
+clear
+ls -a | sort-by type size
+z .c
+ls -a | sort-by type size
+z spicetify
+cd spicetify
+ls -a | sort-by type size
+z Themes
+ls -a | sort-by type size
+spicetify path userdata
+clear
+z ..
+clear
+z
+clear
+z spice
+ls -a | sort-by type size
+mkdir Bloom
+z Bloom
+z Dow
+ls -a | sort-by type size
+clear
+ls -a | sort-by type size
+z spicetify-bloom-main.zip
+ls -a | sort-by type size
+z spicetify-bloom-main(2)
+z 'spicetify-bloom-main(2)'
+ls -a | sort-by type size
+z spicetify-bloom-main   
+ls -a | sort-by type size
+mv src ~/.config/spicetify/Bloom
+ls -a | sort-by type size
+z bloom
+ls -a | sort-by type size
+mv src/* .
+ls -a | sort-by type size
+rm src
+ls -a | sort-by type size
+clear
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+config nu
+z ..
+cd ..
+z bl
+ls -a | sort-by type size
+z
+spicetify path userdata
+z Bloon
+z Bloom
+ls -a | sort-by type size
+mv * ..
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+z ..
+ls -a | sort-by type size
+z spice
+ls -a | sort-by type size
+z Themes
+ls -a | sort-by type size
+mkdir Bloom
+z ..
+mv theme.js Themes/Bloon
+mv theme.js Themes/Bloom
+z ..
+config nu
+z ..
+ls -a | sort-by type size
+cd ..
+ls -a | sort-by type size
+mv theme.js Themes/Bloom
+mv user.css Themes/Bloom
+mv color.ini Themes/Bloom
+ls -a | sort-by type size
+z themes
+ls -a | sort-by type size
+spicetify path userdata
+z themes
+ls -a | sort-by type size
+z Bloom
+ls -a | sort-by type size
+nvim user.css
+exit
+z ..
+ls -a | sort-by type size
+z zen
+ls -a | sort-by type size
+clear
+sudo pacman -S qemu
+qemu
+ls -a | sort-by type size
+clear
+z pitagora_lavoro
+z pythagora_lavoro
+zed
+ls -a | sort-by type size
+clear
+ssh
+ls -a | sort-by type size
+clear
+dx new pit1
+z pit1
+ca
+z pit1
+cargo check
+cargo build
+sudo pacman -S xdotool
+dx serve
+clear
+dx serve
+clear
+z pit1
+ls -a | sort-by type size
+dx serve
+dx new pit2
+z pit2
+ls -a | sort-by type size
+sudo pacman -S spotify-adblocker
+sudo pacman -S spotify-adblock
+yay -S spotify-adblock
+z pit2
+dx serve
+z pit2
+dx serve
+z fabric_bar
+zed
+python3 bar.py
+hyprctl clients
+python3 bar.py
+fetch
+festfetch
+clear
+sudo pacman -S fastfetch
+z ax
+ls -a | sort-by type size
+clear
+ls -a | sort-by type size
+z modules
+ls -a | sort-by type size
+clear
+ls -a | sort-by type size
+touch battery.py
+ls -a | sort-by type size
+mkdir test_py_module
+z test_py_module
+ls -a | sort-by type size
+touch main.py
+touch mod.py
+nvim main.py
+clear
+nvim mod.py
+clear
+python3 main.py
+z fabric_bar
+python3 main.py
+python3 bar.py
+touch data.py
+z fabric_bar
+cat data.py
+z fabric_bar
+python3 bar.py
+python3 battery.py
+z fabric_bar
+python3 battery.py
+z fabric_bar
+python3 battery.py
+z fabric_bar
+python3 battery.py
+python3 bar.py
+z fabric_bar
+python3 bar.py
+z fabric_bar
+python3 bar.py
+z fabric_bar
+python3 bar.py
+z fabric_bar
+python3 bar.py
+python3 battery.py
+z fabric_bar
+python3 battery.py
+z fabric_bar
+ls -a | sort-by type size
+clear
+ls -a | sort-by type size
+python3 bar.py
+z fabric_bar
+python3 bar.py
+z fabric_bar
+python3 bar.py
+z fabric_bar
+python3 bar.py
+z fabric_bar
+python3 bar.py
+z fabric_bar
+python3 bar.py
+clear
+z fabric_bar
+python3 bar.py
+z fabric_bar
+python3 bar.py
+z fabric_bar
+python3 bar.py
+z fabric_bar
+z ax
+ls -a | sort-by type size
+./install.sh
+z ax
+os
+ls -a | sort-by type size
+z]
+z rust
+z fa
+ls -a | sort-by type size
+z 
+ls -a | sort-by type size
+z pythagora_lavoro
+ls -a | sort-by type size
+z src
+ls -a | sort-by type size
+nvim main.rs
+flatpak run dev.zed.Zed
+flatpak run dev.zed.Zed-Preview
+clear
+flatpak run zen
+./install.sh
+ls -a | sort-by type size
+clear
+flatpak run app.zen-browser.zen
+flatpak run app.zen_browser.zen
+clear
+flatpak run app.zen_browser.zen
+flatpak run app.zen_browser.zen &
+flatpak run app.zen_browser.zen dispatch
+flatpak run app.zen_browser.zen 
+ls -a | sort-by type size
+flatpak run app.zen_browser.zen 
+wofi
+rofi
+rm -rf .config/Ax-Shell
+z
+z hypr
+ls -a | sort-by type size
+nvim hyprland.conf
+clear
+ls -a | sort-by type size
+z .c
+ls -a | sort-by type size
+discsord 
+discord
+flatpak run discord
+flatpak run app.discord
+flatpak list
+ls -a | sort-by type size
+clear
+mkdir .d
+ls -a | sort-by type size
+clear
+z .d
+ls -a | sort-by type size
+cmatrix
+sudo pacman -S cmatrix
+cmatrix
+k
+nvim /home/zen/dotfiles/.config/kitty/kitty.conf
+cmatrix
+sudo pacman -R hypridle
+sudo pacman -R hyprlock
+clear
+kls
+flatpak run app.discord
+flatpak run Discord
+flatpak run app.discord.Discord
+flatpak list
+nvim /home/zen/dotfiles/.config/kitty/kitty.conf
+ls -a | sort-by type size
+clear
+z hypr
+ls -a | sort-by type size
+z fa
+ls -a | sort-by type size
+python3 bar.py
+ls -a | sort-by type size
+clear
+ls -a | sort-by type size
+z fa
+ls -a | sort-by type size
+zed
+flatpak run app.discord.Discord
+flatpak run dev.zed.Zed-Preview
+z fa
+python3 bar.py
+z hypr
+ls -a | sort-by type size
+from fabric.audio import Audio, AudioStream  <\n>  <\n># Create audio controller  <\n>audio = Audio()  <\n>  <\n># Access default devices  <\n>speaker = audio.speaker  <\n>microphone = audio.microphone  <\n>  <\n> Control volume  
+clear
+python3 ~/dotfiles/.config/fabric_bar/bar.py
+z fab
+:q
+z
+z dot
+ls -a | sort-by type size
+z
+ls -a | sort-by type size
+z .c
+ls -a | sort-by type size
+cp nushell ~/dotfiles/.config
+ls
+clear
+ls
+clear
+las
+ls
+clear
+exit
+cn
+config nu
+z
+clear
+z 
+exit
+ls
+exit

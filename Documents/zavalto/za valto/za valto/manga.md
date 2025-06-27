@@ -1,0 +1,1 @@
+get some images from it and use krita, modify 'em with GIMP and leave them monochrome. 

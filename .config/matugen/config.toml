@@ -1,0 +1,353 @@
+[config]
+reload_apps = true
+
+[config.wallpaper]
+command = "swww"
+arguments = [
+    "img",
+    "-t",
+    "any",
+    "--transition-duration",
+    "2",
+    "--transition-step",
+    "255",
+    "--transition-fps",
+    "90",
+  
+]
+set = true
+
+[templates.hyprland]
+input_path = "./templates/hyprland-colors.conf"
+output_path = "~/.config/hypr/colors.conf"
+
+[templates.kitty]
+input_path = "./templates/kitty-colors.conf"
+output_path = "../kitty/themes/colors_dark.conf"
+post_hook = "kitty @ set-colors -a -c ~/ZenFlow/.config/kitty/themes/colors_dark.conf"
+
+[templates.kitty_light]
+input_path = "./templates/kitty-colors_light.conf"
+output_path = "../kitty/themes/colors_light.conf"
+[templates.oh-my-posh]
+input_path = "./templates/oh-my-posh.toml"
+output_path = "~/.config/ompsh/theme.toml"
+
+[templates.yazi]
+input_path = './templates/yazi-colors.toml'
+output_path = '~/dotfiles/.config/yazi/theme.toml'
+
+[templates.quickshell-colors]
+input_path = "./templates/quickshell-colors.js"
+output_path = "../quickshell/colors.js"
+
+[templates.spicetify-colors]
+input_path = "./templates/spicetify-colors.ini"
+output_path = "../spicetify/Themes/Dribbblish/color.ini"
+post_hook = "spicetify apply" 
+
+[templates.svg-colors]
+input_path = "./templates/svg-colors.svg"
+output_path = "../quickshell/icons/battery/battery-vertical_full.svg"
+
+[templates.cava-colors]
+input_path = "./templates/cava-colors"
+output_path = "../cava/config"
+
+[templates.foot-colors]
+input_path = "./templates/foot-colors.ini"
+output_path = "../foot/colors.ini"
+
+[config.custom_colors.red]
+color = "#FF0000"
+blend = true
+
+[config.custom_colors.orange]
+color = "#FF4F00"
+blend = true
+
+[config.custom_colors.green]
+color = "#00FF00"
+blend = true
+
+[config.custom_colors.yellow]
+color = "#FFFF00"
+blend = true
+
+[config.custom_colors.blue]
+color = "#00AAFF"
+blend = true
+
+[config.custom_colors.magenta]
+color = "#9141ac"
+blend = true
+
+[config.custom_colors.cyan]
+color = "#00FFFF"
+blend = true
+
+[config.custom_colors.gray]
+color = "#333333"
+blend = true
+
+[config.custom_colors.pastel_blue]
+color = "#99c1f1"
+blend = true
+
+[config.custom_colors.pastel_orange]
+color = "#ffa348"
+blend = true
+
+[config.custom_colors.white]
+color = "#FFFFFFFF"
+blend = false
+
+[config.custom_colors.pastel_green]
+color = "#8ff0a4FF"
+blend = true
+
+[config.custom_colors.pastel_red]
+color = "#f66151"
+blend = true
+
+[config.custom_colors.pastel_magenta]
+color = "#dc8add"
+blend = true
+
+[config.custom_colors.pastel_mint_green]
+color = "#93ddc2"
+blend = true
+
+
+[templates.svg-icon1]
+input_path = "./icons/zzz.svg"
+output_path = "../quickshell/icons/logout/zzz.svg"
+
+[templates.svg-icon2]
+input_path = "./icons/wifi.svg"
+output_path = "../quickshell/icons/logout/wifi.svg"
+
+[templates.svg-icon3]
+input_path = "./icons/wifi-off.svg"
+output_path = "../quickshell/icons/logout/wifi-off.svg"
+
+[templates.svg-icon4]
+input_path = "./icons/wifi-2.svg"
+output_path = "../quickshell/icons/logout/wifi-2.svg"
+
+[templates.svg-icon5]
+input_path = "./icons/wifi-1.svg"
+output_path = "../quickshell/icons/logout/wifi-1.svg"
+
+[templates.svg-icon6]
+input_path = "./icons/wifi-0.svg"
+output_path = "../quickshell/icons/logout/wifi-0.svg"
+
+[templates.svg-icon7]
+input_path = "./icons/wallpaper.svg"
+output_path = "../quickshell/icons/logout/wallpaper.svg"
+
+[templates.svg-icon8]
+input_path = "./icons/tool.svg"
+output_path = "../quickshell/icons/logout/tool.svg"
+
+[templates.svg-icon9]
+input_path = "./icons/terminal.svg"
+output_path = "../quickshell/icons/logout/terminal.svg"
+
+[templates.svg-icon10]
+input_path = "./icons/terminal-2.svg"
+output_path = "../quickshell/icons/logout/terminal-2.svg"
+
+[templates.svg-icon11]
+input_path = "./icons/square.svg"
+output_path = "../quickshell/icons/logout/square.svg"
+
+[templates.svg-icon12]
+input_path = "./icons/square-rounded.svg"
+output_path = "../quickshell/icons/logout/square-rounded.svg"
+
+[templates.svg-icon13]
+input_path = "./icons/square-rounded(1).svg"
+output_path = "../quickshell/icons/logout/square-rounded(1).svg"
+
+[templates.svg-icon14]
+input_path = "./icons/square-letter-x.svg"
+output_path = "../quickshell/icons/logout/square-letter-x.svg"
+
+[templates.svg-icon15]
+input_path = "./icons/square(1).svg"
+output_path = "../quickshell/icons/logout/square(1).svg"
+
+[templates.svg-icon16]
+input_path = "./icons/signal-5g.svg"
+output_path = "../quickshell/icons/logout/signal-5g.svg"
+
+[templates.svg-icon17]
+input_path = "./icons/signal-4g.svg"
+output_path = "../quickshell/icons/logout/signal-4g.svg"
+
+[templates.svg-icon18]
+input_path = "./icons/signal-4g-plus.svg"
+output_path = "../quickshell/icons/logout/signal-4g-plus.svg"
+
+[templates.svg-icon19]
+input_path = "./icons/settings.svg"
+output_path = "../quickshell/icons/logout/settings.svg"
+
+[templates.svg-icon20]
+input_path = "./icons/settings(1).svg"
+output_path = "../quickshell/icons/logout/settings(1).svg"
+
+[templates.svg-icon21]
+input_path = "./icons/screenshot.svg"
+output_path = "../quickshell/icons/logout/screenshot.svg"
+
+[templates.svg-icon22]
+input_path = "./icons/rotate-rectangle.svg"
+output_path = "../quickshell/icons/logout/rotate-rectangle.svg"
+
+[templates.svg-icon23]
+input_path = "./icons/rotate-2.svg"
+output_path = "../quickshell/icons/logout/rotate-2.svg"
+
+[templates.svg-icon24]
+input_path = "./icons/reload.svg"
+output_path = "../quickshell/icons/logout/reload.svg"
+
+[templates.svg-icon25]
+input_path = "./icons/refresh-dot.svg"
+output_path = "../quickshell/icons/logout/refresh-dot.svg"
+
+[templates.svg-icon26]
+input_path = "./icons/player-record.svg"
+output_path = "../quickshell/icons/logout/player-record.svg"
+
+[templates.svg-icon27]
+input_path = "./icons/player-record(1).svg"
+output_path = "../quickshell/icons/logout/player-record-empty.svg"
+
+[templates.svg-icon28]
+input_path = "./icons/pentagon-x.svg"
+output_path = "../quickshell/icons/logout/pentagon-x.svg"
+
+[templates.svg-icon29]
+input_path = "./icons/microphone.svg"
+output_path = "../quickshell/icons/logout/microphone.svg"
+
+[templates.svg-icon30]
+input_path = "./icons/microphone(1).svg"
+output_path = "../quickshell/icons/logout/microphone(1).svg"
+
+[templates.svg-icon31]
+input_path = "./icons/logout.svg"
+output_path = "../quickshell/icons/logout/logout.svg"
+
+[templates.svg-icon32]
+input_path = "./icons/lock.svg"
+output_path = "../quickshell/icons/logout/lock.svg"
+
+[templates.svg-icon33]
+input_path = "./icons/lock(1).svg"
+output_path = "../quickshell/icons/logout/lock(1).svg"
+
+[templates.svg-icon34]
+input_path = "./icons/inner-shadow-top.svg"
+output_path = "../quickshell/icons/logout/inner-shadow-top.svg"
+
+[templates.svg-icon35]
+input_path = "./icons/hexagon-letter-x.svg"
+output_path = "../quickshell/icons/logout/hexagon-letter-x.svg"
+
+[templates.svg-icon36]
+input_path = "./icons/hexagon-letter-x(1).svg"
+output_path = "../quickshell/icons/logout/hexagon-letter-x(1).svg"
+
+[templates.svg-icon37]
+input_path = "./icons/eye.svg"
+output_path = "../quickshell/icons/logout/eye.svg"
+
+[templates.svg-icon38]
+input_path = "./icons/eye(1).svg"
+output_path = "../quickshell/icons/logout/eye(1).svg"
+
+[templates.svg-icon39]
+input_path = "./icons/circle-dashed-x.svg"
+output_path = "../quickshell/icons/logout/circle-dashed-x.svg"
+
+[templates.svg-icon40]
+input_path = "./icons/circle-caret-right.svg"
+output_path = "../quickshell/icons/logout/circle-caret-right.svg"
+
+[templates.svg-icon41]
+input_path = "./icons/circle-caret-right(1).svg"
+output_path = "../quickshell/icons/logout/circle-caret-right(1).svg"
+
+[templates.svg-icon42]
+input_path = "./icons/capsule.svg"
+output_path = "../quickshell/icons/logout/capsule.svg"
+
+[templates.svg-icon43]
+input_path = "./icons/capsule-horizontal.svg"
+output_path = "../quickshell/icons/logout/capsule-horizontal.svg"
+
+[templates.svg-icon44]
+input_path = "./icons/capsule-horizontal(1).svg"
+output_path = "../quickshell/icons/logout/capsule-horizontal(1).svg"
+
+[templates.svg-icon45]
+input_path = "./icons/capsule(1).svg"
+output_path = "../quickshell/icons/logout/capsule(1).svg"
+
+[templates.svg-icon46]
+input_path = "./icons/border-corner-pill.svg"
+output_path = "../quickshell/icons/logout/border-corner-pill.svg"
+
+[templates.svg-icon47]
+input_path = "./icons/bed-flat.svg"
+output_path = "../quickshell/icons/logout/bed-flat.svg"
+
+[templates.svg-icon48]
+input_path = "./icons/bed-flat(1).svg"
+output_path = "../quickshell/icons/logout/bed-flat(1).svg"
+
+[templates.svg-icon49]
+input_path = "./icons/antenna-bars-off.svg"
+output_path = "../quickshell/icons/logout/antenna-bars-off.svg"
+
+[templates.svg-icon50]
+input_path = "./icons/antenna-bars-5.svg"
+output_path = "../quickshell/icons/logout/antenna-bars-5.svg"
+
+[templates.svg-icon51]
+input_path = "./icons/antenna-bars-4.svg"
+output_path = "../quickshell/icons/logout/antenna-bars-4.svg"
+
+[templates.svg-icon52]
+input_path = "./icons/antenna-bars-3.svg"
+output_path = "../quickshell/icons/logout/antenna-bars-3.svg"
+
+[templates.svg-icon53]
+input_path = "./icons/antenna-bars-2.svg"
+output_path = "../quickshell/icons/logout/antenna-bars-2.svg"
+
+[templates.svg-icon54]
+input_path = "./icons/antenna-bars-1.svg"
+output_path = "../quickshell/icons/logout/antenna-bars-1.svg"
+
+[templates.svg-icon55]
+input_path = "./icons/alarm-snooze.svg"
+output_path = "../quickshell/icons/logout/alarm-snooze.svg"
+
+[templates.svg-icon56]
+input_path = "./icons/alarm-snooze(1).svg"
+output_path = "../quickshell/icons/logout/alarm-snooze(1).svg"
+
+[templates.svg-icon57]
+input_path = "./icons/adjustments-horizontal.svg"
+output_path = "../quickshell/icons/logout/adjustments-horizontal.svg"
+
+[templates.svg-icon58]
+input_path = "./icons/adjustments-alt.svg"
+output_path = "../quickshell/icons/logout/adjustments-alt.svg"
+

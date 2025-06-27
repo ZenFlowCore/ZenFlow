@@ -1,0 +1,14 @@
+
+@import "Nebula/Nebula.css";
+
+@-moz-document url-prefix("chrome:") {
+  /* Main browser background override */
+  #browser {
+    background: rgba(0, 0, 0, 0.40) !important;
+  }
+
+  
+
+ 
+}
+

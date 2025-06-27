@@ -1,0 +1,104 @@
+* {
+    all: unset;
+}
+
+#outer-bar {
+}
+
+#inner-bar {
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 2px #444 solid;
+    border-bottom: 2px #444 solid;
+    border-left: 2.5px #444 solid;
+    border-right: 3px #444 solid;
+}
+
+/* Tooltip styling */
+tooltip {
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    font-family: JetBrainsMono Nerd Font Mono;
+}
+
+tooltip label {
+    color: inherit;
+    font-weight: normal;
+}
+
+/* For markup tooltips with rich formatting */
+tooltip * {
+    border-radius: 8px;
+}
+
+#workspaces {
+    font-size: 16px;
+}
+
+.workspace-button {
+    color: #444;
+}
+
+.workspace-button:hover {
+    color: #aaaaaa;
+    font-weight: bold;
+}
+
+.workspace-button.urgent {
+    color: #fff;
+    font-weight: bold;
+}
+
+.workspace-button.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+#arch_icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#metrics-icon {
+    font-size: 24px;
+}
+
+#metrics-level {
+    font-weight: bold;
+}
+
+#metrics-icon.alert {
+    color: #ffaaaa;
+}
+
+#metrics-icon.full {
+    color: #a7c957;
+}
+
+#metrics-icon.charging {
+    color: #08a045;
+}
+
+#metrics-icon.discharging {
+    color: #e9c46a;
+}
+
+#metrics-level.alert {
+    color: #ffaaaa;
+}
+
+#metrics-level.full {
+    color: #a7c957;
+}
+
+#metrics-level.charging {
+    color: #08a045;
+}
+
+#metrics-level.discharging {
+    color: #e9c46a;
+}

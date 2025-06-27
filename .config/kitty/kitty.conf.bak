@@ -1,0 +1,21 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# BEGIN_KITTY_THEME
+# Colors Light
+include current-theme.conf
+# END_KITTY_THEME
+font_size 13.0
+background_opacity 0.60
+confirm_os_window_close 0
+window_padding_width 13
+allow_remote_control yes
+gpu_window_support yes
+scrollback_lines 1000
+input_delay 0
+repaint_delay 2
+sync_to_monitor no
+wayland_enable_ime no
+font_family      family="JetBrainsMono Nerd Font Mono"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto

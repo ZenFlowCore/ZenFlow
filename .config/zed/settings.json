@@ -1,0 +1,47 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "project_panel": {
+    "dock": "right"
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+  "experimental.theme_overrides": {
+    "background.appearance": "blurred",
+    "background": "#00000080",
+    "editor.background": "#00000080",
+    "editor.gutter.background": "#00000080",
+    "tab_bar.background": "#00000080",
+    "terminal.background": "#00000080",
+    "toolbar.background": "#00000080",
+    "tab.active_background": "#00000000",
+    "tab.inactive_background": "#00000000",
+    "status_bar.background": "#00000080",
+    "title_bar.background": "#000000B0  ",
+    "panel.background": "#00000040",
+    "border.variant": "#00000000",
+    "scrollbar.track.border": "#00000000",
+    "editor.active_line.background": "#00000000"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "Modest Dark",
+    "dark": "Modest Dark"
+  }
+}

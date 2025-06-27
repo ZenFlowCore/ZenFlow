@@ -1,0 +1,53 @@
+[palette]
+background = "#{{colors.background.default.hex_stripped}}"
+foreground = "#{{colors.on_background.default.hex_stripped}}"
+primary = "#{{colors.primary.default.hex_stripped}}"
+secondary = "#{{colors.secondary.default.hex_stripped}}"
+tertiary = "#{{colors.tertiary.default.hex_stripped}}"
+surface = "#{{colors.surface.default.hex_stripped}}"
+surface_bright = "#{{colors.surface_bright.default.hex_stripped}}"
+outline = "#{{colors.outline.default.hex_stripped}}"
+error = "#{{colors.error.default.hex_stripped | set_lightness: -20.0}}"
+shadow = "#{{colors.shadow.default.hex_stripped}}"
+
+[[blocks]]
+alignment = "left"
+type = "prompt"
+[[blocks.segments]]
+style = "plain"
+foreground = "p:foreground"
+template = "\uF303"
+type = "os"
+[[blocks.segments]]
+foreground = "p:primary"
+style = "plain"
+template = ' {{ "{{" }} .PWD {{ "}}" }} '
+type = "path"
+[blocks.segments.properties]
+style = "agnoster"
+[[blocks.segments]]
+type = "rust"
+foreground = "#FF4F00"
+template = ' {{ "{{" }} .Full {{ "}}" }} '
+style = "plain"
+[[blocks.segments]]
+type = "python"
+foreground = "#100e23"
+background = "#906cff"
+template = ' {{ "{{" }} .Full {{ "}}" }} '
+style = "plain"
+# right prompt
+[[blocks]]
+alignment = "right"
+type = "rprompt"
+[[blocks.segments]]
+template = ' git: {{ "{{" }} .HEAD {{ "}}" }} '
+foreground = "p:secondary"
+style = "plain"
+type = "git"
+# time
+[[blocks.segments]]
+type = "time"
+style = "plain"
+foreground = "p:primary"
+template = ' {{ "{{" }} .CurrentDate | date .Format {{ "}}" }} '

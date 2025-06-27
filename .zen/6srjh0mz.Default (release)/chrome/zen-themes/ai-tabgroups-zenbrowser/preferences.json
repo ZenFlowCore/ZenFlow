@@ -1,0 +1,75 @@
+[
+  {
+    "property": "extensions.tabgroups.ai_model",
+    "label": "Choose AI - Gemini or Ollama",
+    "type": "dropdown",
+    "placeholder": false,
+    "value": "number",
+    "default": 1,
+    "options": [
+      {
+        "value": 1,
+        "label": "Gemini"
+      },
+      {
+        "value": 2,
+        "label": "Ollama"
+      }
+    ]
+  },
+  {
+    "type": "separator",
+    "label": "Gemini",
+    "id": "gemini-separator",
+    "conditions": [
+      { "if": { "property": "extensions.tabgroups.ai_model", "value": 1 } }
+    ]
+  },
+  {
+    "property": "extensions.tabgroups.gemini_api_key",
+    "label": "Gemini API Key",
+    "type": "string",
+    "placeholder": "Enter your Gemini API key here",
+    "conditions": [
+      { "if": { "property": "extensions.tabgroups.ai_model", "value": 1 } }
+    ]
+  },
+  {
+    "property": "extensions.tabgroups.gemini_model",
+    "label": "Gemini Model to Use For Renaming",
+    "default": "gemini-1.5-flash-latest",
+    "type": "string",
+    "placeholder": "Enter your Gemini Model here",
+    "conditions": [
+      { "if": { "property": "extensions.tabgroups.ai_model", "value": 1 } }
+    ]
+  },
+  {
+    "type": "separator",
+    "label": "Ollama",
+    "id": "ollama-separator",
+    "conditions": [
+      { "if": { "property": "extensions.tabgroups.ai_model", "value": 2 } }
+    ]
+  },
+  {
+    "property": "extensions.tabgroups.ollama_endpoint",
+    "label": "Ollama Endpoint URL",
+    "default": "http://localhost:11434/api/generate",
+    "type": "string",
+    "placeholder": "Enter your Ollama Endpoint URL here",
+    "conditions": [
+      { "if": { "property": "extensions.tabgroups.ai_model", "value": 2 } }
+    ]
+  },
+  {
+    "property": "extensions.tabgroups.ollama_model",
+    "label": "Ollama Model to Use For Renaming",
+    "default": "llama3.1:latest",
+    "type": "string",
+    "placeholder": "Enter your Ollama Model here",
+    "conditions": [
+      { "if": { "property": "extensions.tabgroups.ai_model", "value": 2 } }
+    ]
+  }
+]

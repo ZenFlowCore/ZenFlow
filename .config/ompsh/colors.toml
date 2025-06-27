@@ -1,0 +1,43 @@
+"$schema" = "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json"
+version = 3
+[[blocks]]
+alignment = "left"
+type = "prompt"
+[[blocks.segments]]
+style = "plain"
+foreground = "#e6e1e9"
+template = "\uF303"
+type = "os"
+[[blocks.segments]]
+foreground = "#cdbdff"
+style = "plain"
+template = ' {{ .PWD }} '
+type = "path"
+[blocks.segments.properties]
+style = "agnoster"
+[[blocks.segments]]
+type = "rust"
+foreground = "#FF4F00"
+template = ' {{ .Full }} '
+style = "plain"
+[[blocks.segments]]
+type = "python"
+foreground = "#100e23"
+background = "#906cff"
+template = ' {{ .Full }} '
+style = "plain"
+# right prompt
+[[blocks]]
+alignment = "right"
+type = "rprompt"
+[[blocks.segments]]
+foreground = "#cbc3dc"
+style = "plain"
+template = ' {{ <#e6e1e9>git:</> {{ .HEAD }} }} '
+type = "git"
+# time
+[[blocks.segments]]
+type = "time"
+style = "plain"
+foreground = "#eeb8ca"
+template = ' {{ .CurrentDate | date .Format }} '

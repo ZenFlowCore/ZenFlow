@@ -1,0 +1,7 @@
+[manager]
+# Change from rounded to sharp border
+border_symbol = "┃"  # Current (thick vertical)
+# OR use these alternatives:
+# border_symbol = "│"  # Thin vertical line
+# border_symbol = "║"  # Double vertical line
+# border_symbol = "|"  # ASCII pipe character
